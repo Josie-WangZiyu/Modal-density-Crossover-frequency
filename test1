@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Interactive MATLAB Calculation</title>
+<style>
+body {
+font-family: Arial, sans-serif;
+margin: 20px;
+}
+.container {
+max-width: 600px;
+margin: auto;
+}
+.result {
+margin-top: 20px;
+}
+</style>
+</head>
+<body>
+<div class="container">
+<h1>Interactive MATLAB Calculation</h1>
+<form id="calcForm">
+<label for="param1">Enter first parameter:</label>
+<input type="number" id="param1" name="param1" required>
+<br><br>
+<label for="param2">Enter second parameter:</label>
+<input type="number" id="param2" name="param2" required>
+<br><br>
+<button type="submit">Calculate</button>
+</form>
+<div class="result" id="result"></div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
